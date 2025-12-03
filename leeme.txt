@@ -1,0 +1,38 @@
+INFORMACIÓN ADICIONAL:
+
+- Versión JDK: JDK-21
+
+- Versión NetBeans: NetBeans 22
+
+- Ruta del Javadoc por defecto: PROYECTO_AAHG_DDSI/target/site/apidocs/index.html
+
+- Ruta de las imágenes: PROYECTO_AAHG_DDSI/src/main/resources/META-INF
+
+- El código de todos los métodos de todas las clases del Programa está comentado para poder visualizarlo en el Javadoc generado.
+
+- El programa ha sido probado con distintos usuarios y en distintos equipos para asegurar que funciona correctamente.
+
+- El programa se ejecuta en pantalla completa y ha sido probado en las siguientes resoluciones: (1920x1080px, 2560x1440px)
+
+- Al iniciar sesión, estando en el campo 'usuario' o en el campo 'contraseña' al presionar la tecla 'Enter' es como si presionásemos el botón 'Aceptar' y al presionar la tecla 'Esc' es como si presionásemos el botón 'Cancelar'.
+
+- La búsqueda de un Socio se realiza mediante el campo 'nombre' (al dejar el ratón encima del campo de texto aparece un texto que lo indica) y la búsqueda se va realizando mientras escribimos, borramos o modificamos cada carácter.
+
+- Las ventanas de Insertar y Modificar un Monitor, un Socio y una Actividad indican con el carácter '*' los campos obligatorios que debemos rellenar.
+
+- Al insertar o modificar una Actividad el campo 'monitorResponsable' muestra los campos 'nombre' y 'codMonitor' del Monitor con el siguiente formato:
+"nombre (codMonitor)"
+
+REESTRICCIONES ADICIONALES CONTEMPLADAS (con mensaje de error):
+
+- NO podemos insertar o modificar un Monitor y ponerle el 'dni' de otro Monitor que ya exista en la Base de Datos, ya que el campo 'dni' es Único.
+
+- NO podemos insertar o modificar un Socio y ponerle el 'dni' de otro Socio que ya exista en la Base de Datos, ya que el campo 'dni' es Único.
+
+- NO podemos insertar o modificar una Actividad y ponerle el 'nombre' de otra Actividad que ya exista en la Base de Datos, ya que el campo 'nombre' es Único.
+
+CASOS ESPECIALES (sin mensaje de error):
+
+- Si eliminamos un Monitor que es Monitor Responsable de una Actividad, dicha Actividad pasa a NO tener ningún Monitor Responsable.
+
+- Si eliminamos un Socio de la BD, dicho Socio se elimina de las Actividades en las que estaba inscrito.

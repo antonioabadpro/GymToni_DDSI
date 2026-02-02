@@ -108,10 +108,10 @@ El proyecto sigue estrictamente el patrón **Modelo-Vista-Controlador** para des
 
 [![Memoria Técnica](https://img.shields.io/badge/PDF-Ver_Memoria_Técnica-EC1C24?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://github.com/antonioabadpro/GymToni_DDSI/blob/main/Documentaci%C3%B3n%20Proyecto%20DDSI_AAHG.pdf)
 
-> **Nota:** Haz clic en el botón de arriba para visualizar o descargar el análisis completo en PDF, donde se explican las diferentes estrategias utilizadas, las comparativas detalladas con sus respectivas tablas de tiempos y la conclusión.
+> **Nota:** Haz clic en el botón de arriba para visualizar o descargar la memoria técnica completa en PDF.
 
 El código fuente se encuentra totalmente documentado siguiendo los estándares de Java (Javadoc). <br>
-Puedes consultar la API generada abriendo el siguiente archivo en tu navegador web:
+Puedes consultar la API generada abriendo el siguiente archivo del proyecto en tu navegador web:
 
 `target/reports/apidocs/index.html`
 
